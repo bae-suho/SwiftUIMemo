@@ -10,9 +10,9 @@
 		D460D5392A3F526E00D6576B /* SwiftUIMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D460D5382A3F526E00D6576B /* SwiftUIMemoApp.swift */; };
 		D460D53B2A3F526E00D6576B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D460D53A2A3F526E00D6576B /* Persistence.swift */; };
 		D460D53E2A3F526E00D6576B /* SwiftUIMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D460D53C2A3F526E00D6576B /* SwiftUIMemo.xcdatamodeld */; };
-		D460D5402A3F526E00D6576B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D460D53F2A3F526E00D6576B /* ContentView.swift */; };
 		D460D5422A3F526F00D6576B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D460D5412A3F526F00D6576B /* Assets.xcassets */; };
 		D460D5462A3F526F00D6576B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D460D5452A3F526F00D6576B /* Preview Assets.xcassets */; };
+		D460D54D2A3F535B00D6576B /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D460D54C2A3F535B00D6576B /* MainListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		D460D5382A3F526E00D6576B /* SwiftUIMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMemoApp.swift; sourceTree = "<group>"; };
 		D460D53A2A3F526E00D6576B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		D460D53D2A3F526E00D6576B /* SwiftUIMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUIMemo.xcdatamodel; sourceTree = "<group>"; };
-		D460D53F2A3F526E00D6576B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D460D5412A3F526F00D6576B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D460D5432A3F526F00D6576B /* SwiftUIMemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIMemo.entitlements; sourceTree = "<group>"; };
 		D460D5452A3F526F00D6576B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D460D54C2A3F535B00D6576B /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +56,12 @@
 		D460D5372A3F526E00D6576B /* SwiftUIMemo */ = {
 			isa = PBXGroup;
 			children = (
+				D460D54F2A3F538900D6576B /* Memory */,
+				D460D54E2A3F537C00D6576B /* CoreData */,
 				D460D5382A3F526E00D6576B /* SwiftUIMemoApp.swift */,
-				D460D53A2A3F526E00D6576B /* Persistence.swift */,
-				D460D53F2A3F526E00D6576B /* ContentView.swift */,
+				D460D54C2A3F535B00D6576B /* MainListView.swift */,
 				D460D5412A3F526F00D6576B /* Assets.xcassets */,
 				D460D5432A3F526F00D6576B /* SwiftUIMemo.entitlements */,
-				D460D53C2A3F526E00D6576B /* SwiftUIMemo.xcdatamodeld */,
 				D460D5442A3F526F00D6576B /* Preview Content */,
 			);
 			path = SwiftUIMemo;
@@ -73,6 +73,22 @@
 				D460D5452A3F526F00D6576B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D460D54E2A3F537C00D6576B /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D460D53C2A3F526E00D6576B /* SwiftUIMemo.xcdatamodeld */,
+				D460D53A2A3F526E00D6576B /* Persistence.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		D460D54F2A3F538900D6576B /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Memory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +162,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D460D53E2A3F526E00D6576B /* SwiftUIMemo.xcdatamodeld in Sources */,
+				D460D54D2A3F535B00D6576B /* MainListView.swift in Sources */,
 				D460D5392A3F526E00D6576B /* SwiftUIMemoApp.swift in Sources */,
-				D460D5402A3F526E00D6576B /* ContentView.swift in Sources */,
 				D460D53B2A3F526E00D6576B /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
