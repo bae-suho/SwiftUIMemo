@@ -17,6 +17,7 @@
 		D460D5532A3F561400D6576B /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D460D5522A3F561400D6576B /* MemoStore.swift */; };
 		D460D5582A3F5D6F00D6576B /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D460D5572A3F5D6F00D6576B /* MemoCell.swift */; };
 		D460D55A2A3F5DEB00D6576B /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D460D5592A3F5DEB00D6576B /* ComposeView.swift */; };
+		D460D55C2A3F615900D6576B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D460D55B2A3F615900D6576B /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D460D5522A3F561400D6576B /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 		D460D5572A3F5D6F00D6576B /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		D460D5592A3F5DEB00D6576B /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
+		D460D55B2A3F615900D6576B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				D460D54C2A3F535B00D6576B /* MainListView.swift */,
 				D460D5572A3F5D6F00D6576B /* MemoCell.swift */,
 				D460D5592A3F5DEB00D6576B /* ComposeView.swift */,
+				D460D55B2A3F615900D6576B /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D460D5582A3F5D6F00D6576B /* MemoCell.swift in Sources */,
+				D460D55C2A3F615900D6576B /* DetailView.swift in Sources */,
 				D460D53E2A3F526E00D6576B /* SwiftUIMemo.xcdatamodeld in Sources */,
 				D460D5532A3F561400D6576B /* MemoStore.swift in Sources */,
 				D460D54D2A3F535B00D6576B /* MainListView.swift in Sources */,
