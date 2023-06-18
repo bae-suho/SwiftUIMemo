@@ -14,9 +14,9 @@ class MemoStore: ObservableObject{
     
     init(){
         list = [
-            Memo(content: "Hello", insertDate: Date.now)
-            Memo(content: "Awsome", insertDate: Date.now.addingTimeInterval(3600 * -24))
-            Memo(content: "Awsome", insertDate: Date.now.addingTimeInterval(3600 * -48))
+            Memo(content: "Hello", insertDate: Date.now),
+            Memo(content: "Awsome", insertDate: Date.now.addingTimeInterval(3600 * -24)),
+            Memo(content: "SwiftUI", insertDate: Date.now.addingTimeInterval(3600 * -48))
         ]
         //더미 데이터를 리스트에 추가
     }
